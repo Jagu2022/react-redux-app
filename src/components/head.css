@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    background-color: dodgerblue;
+    height: 40px;
+    position: sticky;
+    top: 0;
+}.head{
+    margin: 5px;
+}
+
+a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
+.nav{
+    margin-top: 5px;
+}
