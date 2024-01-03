@@ -15,6 +15,8 @@ export default function Head() {
                   <Link to="counter">counter</Link>
                   <Link to="todolist">todolist</Link>
                   <Link to="countries">countries</Link>
+                  <Link to="querys">querys</Link>
+                  <Link to="products">products</Link>
               </nav>        
           </div>
           <div className='headR'>

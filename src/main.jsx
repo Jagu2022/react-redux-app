@@ -9,6 +9,9 @@ import About from './components/About.jsx'
 import Todolist from './features/todolist/Todolist.jsx'
 import Countries from './components/Countries.jsx'
 import CountriesDetails from './components/CountriesDetails.jsx'
+import Query from './features/query/Query.jsx'
+import Produts from './features/products/Produts.jsx'
+import ProductDetails from './components/ProductDetails.jsx'
 const rounter = createBrowserRouter([
   {
     path:"/", 
@@ -40,6 +43,18 @@ const rounter = createBrowserRouter([
           }
         ]
       },
+      {
+        path:'querys',
+        element:<Query/>
+      },
+      {
+        path:'products',
+        element:<Produts/>
+      },
+      {
+        path:'productDetails/:id',
+        element:<ProductDetails/>
+      }
     ]
   },
   {
